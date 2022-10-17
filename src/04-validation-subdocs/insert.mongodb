@@ -1,0 +1,10 @@
+use("platzi_store")
+
+db.products.insertOne({
+    name: 'Camiseta',
+    sizes: ['XL'],
+    category: {
+        name: "category",
+        image: "uerl"
+    }
+})
